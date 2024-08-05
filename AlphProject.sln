@@ -29,9 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alpha.Shared.Models", "..\S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alpha.Shared.Utils", "..\Shared\Utils\Alpha.Shared.Utils\Alpha.Shared.Utils.csproj", "{9474CC14-3FCE-48B7-8435-8F626BE3E484}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alpha.ServiceA.Interface", "Services\ServiceA\AKKK.ServiceA.Interface\Alpha.ServiceA.Interface.csproj", "{ECAF93C0-B2DE-46DE-8A7B-63978CAF6C32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alpha.ServiceA.Interface", "Services\ServiceA\Alpha.ServiceA.Interface\Alpha.ServiceA.Interface.csproj", "{ECAF93C0-B2DE-46DE-8A7B-63978CAF6C32}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alpha.ServiceA.Infrastructure", "Services\ServiceA\AKKK.ServiceA.Infrastructure\Alpha.ServiceA.Infrastructure.csproj", "{27A6ED21-5C62-4593-B678-4472932DAF7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alpha.ServiceA.Infrastructure", "Services\ServiceA\Alpha.ServiceA.Infrastructure\Alpha.ServiceA.Infrastructure.csproj", "{27A6ED21-5C62-4593-B678-4472932DAF7D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alpha.ServiceA.API", "Services\ServiceA\Alpha.ServiceA.API\Alpha.ServiceA.API.csproj", "{B837E598-3109-480D-AC9B-E5332520895C}"
 EndProject

@@ -24,7 +24,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\Shared\Models\Alpha.Shared.Models\Alpha.Shared.Models.csproj" />
     <ProjectReference Include="..\..\..\..\Shared\Utils\Alpha.Shared.Utils\Alpha.Shared.Utils.csproj" />
-    <ProjectReference Include="..\AKKK.ServiceA.Infrastructure\Alpha.ServiceA.Infrastructure.csproj" />
+    <ProjectReference Include="..\Alpha.ServiceA.Infrastructure\Alpha.ServiceA.Infrastructure.csproj" />
 
   </ItemGroup>
 
