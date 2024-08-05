@@ -1,0 +1,6 @@
+D:\ASP.NET MicroService\AlphProject\obj\Debug\net6.0\AlphProject.csproj.AssemblyReference.cache
+D:\ASP.NET MicroService\AlphProject\obj\Debug\net6.0\AlphProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET MicroService\AlphProject\obj\Debug\net6.0\AlphProject.AssemblyInfoInputs.cache
+D:\ASP.NET MicroService\AlphProject\obj\Debug\net6.0\AlphProject.AssemblyInfo.cs
+D:\ASP.NET MicroService\AlphProject\obj\Debug\net6.0\AlphProject.csproj.CoreCompileInputs.cache
+D:\ASP.NET MicroService\AlphProject\obj\Debug\net6.0\AlphProject.MvcApplicationPartsAssemblyInfo.cache

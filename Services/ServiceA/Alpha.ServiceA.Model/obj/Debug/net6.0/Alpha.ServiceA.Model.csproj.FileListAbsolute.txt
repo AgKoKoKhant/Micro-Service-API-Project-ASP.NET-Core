@@ -1,0 +1,12 @@
+D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.Model\bin\Debug\net6.0\Alpha.ServiceA.Model.deps.json
+D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.Model\bin\Debug\net6.0\Alpha.ServiceA.Model.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.Model\bin\Debug\net6.0\Alpha.ServiceA.Model.pdb
+D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.Model\obj\Debug\net6.0\Alpha.ServiceA.Model.csproj.AssemblyReference.cache
+D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.Model\obj\Debug\net6.0\Alpha.ServiceA.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.Model\obj\Debug\net6.0\Alpha.ServiceA.Model.AssemblyInfoInputs.cache
+D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.Model\obj\Debug\net6.0\Alpha.ServiceA.Model.AssemblyInfo.cs
+D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.Model\obj\Debug\net6.0\Alpha.ServiceA.Model.csproj.CoreCompileInputs.cache
+D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.Model\obj\Debug\net6.0\Alpha.ServiceA.Model.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.Model\obj\Debug\net6.0\refint\Alpha.ServiceA.Model.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.Model\obj\Debug\net6.0\Alpha.ServiceA.Model.pdb
+D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.Model\obj\Debug\net6.0\ref\Alpha.ServiceA.Model.dll

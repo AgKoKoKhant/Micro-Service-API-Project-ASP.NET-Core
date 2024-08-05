@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IGDji5zn2GurZP5eGIX2kwkY4GyOmCxfRc6v0R20Na8=",
+  "Source": "Alpha.ServiceA.API",
+  "BasePath": "_content/Alpha.ServiceA.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

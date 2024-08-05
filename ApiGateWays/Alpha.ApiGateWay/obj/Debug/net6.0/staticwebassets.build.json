@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pgwxaH2SV4ltQeFXWhg7zrI9Vhw9uMwQYZzBDKyfbOk=",
+  "Source": "Alpha.ApiGateWay",
+  "BasePath": "_content/Alpha.ApiGateWay",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
