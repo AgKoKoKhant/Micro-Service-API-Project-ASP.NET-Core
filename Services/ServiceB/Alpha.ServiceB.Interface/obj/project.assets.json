@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Alpha.ServiceB.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Alpha.ServiceB.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Alpha.ServiceB.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Alpha.ServiceB.Model/1.0.0": {
+      "type": "project",
+      "path": "../Alpha.ServiceB.Model/Alpha.ServiceB.Model.csproj",
+      "msbuildProject": "../Alpha.ServiceB.Model/Alpha.ServiceB.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Alpha.ServiceB.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\aungk\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Interface\\Alpha.ServiceB.Interface.csproj",
+      "projectName": "Alpha.ServiceB.Interface",
+      "projectPath": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Interface\\Alpha.ServiceB.Interface.csproj",
+      "packagesPath": "C:\\Users\\aungk\\.nuget\\packages\\",
+      "outputPath": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Interface\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\aungk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Model\\Alpha.ServiceB.Model.csproj": {
+              "projectPath": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Model\\Alpha.ServiceB.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

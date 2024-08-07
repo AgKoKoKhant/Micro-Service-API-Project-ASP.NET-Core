@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Shared\Models\Alpha.Shared.Models\Alpha.Shared.Models.csproj" />
+  
     <ProjectReference Include="..\..\..\..\Shared\Utils\Alpha.Shared.Utils\Alpha.Shared.Utils.csproj" />
     <ProjectReference Include="..\Alpha.ServiceA.Infrastructure\Alpha.ServiceA.Infrastructure.csproj" />
 

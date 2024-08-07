@@ -1,0 +1,15 @@
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\bin\Debug\net6.0\Alpha.ServiceB.Interface.deps.json
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\bin\Debug\net6.0\Alpha.ServiceB.Interface.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\bin\Debug\net6.0\Alpha.ServiceB.Interface.pdb
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\bin\Debug\net6.0\Alpha.ServiceB.Model.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\bin\Debug\net6.0\Alpha.ServiceB.Model.pdb
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\obj\Debug\net6.0\Alpha.ServiceB.Interface.csproj.AssemblyReference.cache
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\obj\Debug\net6.0\Alpha.ServiceB.Interface.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\obj\Debug\net6.0\Alpha.ServiceB.Interface.AssemblyInfoInputs.cache
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\obj\Debug\net6.0\Alpha.ServiceB.Interface.AssemblyInfo.cs
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\obj\Debug\net6.0\Alpha.ServiceB.Interface.csproj.CoreCompileInputs.cache
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\obj\Debug\net6.0\Alpha.ServiceB.Interface.csproj.CopyComplete
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\obj\Debug\net6.0\Alpha.ServiceB.Interface.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\obj\Debug\net6.0\refint\Alpha.ServiceB.Interface.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\obj\Debug\net6.0\Alpha.ServiceB.Interface.pdb
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.Interface\obj\Debug\net6.0\ref\Alpha.ServiceB.Interface.dll

@@ -1,118 +1,147 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/ServiceA/GetTeachers",
+      "DownstreamPathTemplate": "/controller/GetTeachers",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5009
+          "Port": 5013
         }
       ],
-      "UpstreamPathTemplate": "/ServiceA/GetTeachers",
+      "UpstreamPathTemplate": "/controller/GetTeachers",
       "UpstreamHttpMethod": [
         "GET"
       ]
     },
     {
-      "DownstreamPathTemplate": "/ServiceA/GetTeacherbyName",
+      "DownstreamPathTemplate": "/controller/GetTeacherbyName",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5009
+          "Port": 5013
         }
       ],
-      "UpstreamPathTemplate": "/ServiceA/GetTeacherbyName",
+      "UpstreamPathTemplate": "/controller/GetTeacherbyName",
       "UpstreamHttpMethod": [
         "GET"
       ]
     },
     {
-      "DownstreamPathTemplate": "/ServiceA/AddStudent",
+      "DownstreamPathTemplate": "/controller/AddStudent",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5009
+          "Port": 5013
         }
       ],
-      "UpstreamPathTemplate": "/ServiceA/AddStudent",
+      "UpstreamPathTemplate": "/controller/AddStudent",
       "UpstreamHttpMethod": [
         "POST"
       ]
     },
     {
-      "DownstreamPathTemplate": "/ServiceA/GetStudents",
+      "DownstreamPathTemplate": "/controller/GetStudents",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5009
+          "Port": 5013
         }
       ],
-      "UpstreamPathTemplate": "/ServiceA/GetStudents",
+      "UpstreamPathTemplate": "/controller/GetStudents",
       "UpstreamHttpMethod": [
         "GET"
       ]
     },
     {
-      "DownstreamPathTemplate": "/ServiceB/GetTeachers",
+      "DownstreamPathTemplate": "/api/ServiceB/GetTeachers",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5158
+          "Port": 7236
         }
       ],
-      "UpstreamPathTemplate": "/ServiceB/GetTeachers",
+      "UpstreamPathTemplate": "/api/ServiceB/GetTeachers",
       "UpstreamHttpMethod": [
         "GET"
       ]
     },
     {
-      "DownstreamPathTemplate": "/ServiceB/GetTeacherbyName",
+      "DownstreamPathTemplate": "/api/ServiceB/GetTeacherByName",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5158
+          "Port": 7236
         }
       ],
-      "UpstreamPathTemplate": "/ServiceB/GetTeacherbyName",
+      "UpstreamPathTemplate": "/api/ServiceB/GetTeacherByName",
       "UpstreamHttpMethod": [
         "GET"
       ]
     },
     {
-      "DownstreamPathTemplate": "/ServiceB/AddStudent",
+      "DownstreamPathTemplate": "/api/ServiceB/AddStudent",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5158
+          "Port": 7236
         }
       ],
-      "UpstreamPathTemplate": "/ServiceB/AddStudent",
+      "UpstreamPathTemplate": "/api/ServiceB/AddStudent",
       "UpstreamHttpMethod": [
         "POST"
       ]
     },
     {
-      "DownstreamPathTemplate": "/ServiceB/GetStudents",
+      "DownstreamPathTemplate": "/api/ServiceB/GetStudents",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 5158
+          "Port": 7236
         }
       ],
-      "UpstreamPathTemplate": "/ServiceB/GetStudents",
+      "UpstreamPathTemplate": "/api/ServiceB/GetStudents",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/swagger/servicea",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5013
+        }
+      ],
+      "UpstreamPathTemplate": "/swagger/servicea",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/swagger/serviceb",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7236
+        }
+      ],
+      "UpstreamPathTemplate": "/swagger/serviceb",
       "UpstreamHttpMethod": [
         "GET"
       ]
     }
-
-
-  ]
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5010"
+  }
 }

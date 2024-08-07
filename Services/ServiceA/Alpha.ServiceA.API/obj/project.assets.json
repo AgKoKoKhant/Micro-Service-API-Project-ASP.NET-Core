@@ -1220,19 +1220,6 @@
           "bin/placeholder/Alpha.ServiceA.Model.dll": {}
         }
       },
-      "Alpha.Shared.Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.30"
-        },
-        "compile": {
-          "bin/placeholder/Alpha.Shared.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Alpha.Shared.Models.dll": {}
-        }
-      },
       "Alpha.Shared.Utils/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3100,11 +3087,6 @@
       "path": "../Alpha.ServiceA.Model/Alpha.ServiceA.Model.csproj",
       "msbuildProject": "../Alpha.ServiceA.Model/Alpha.ServiceA.Model.csproj"
     },
-    "Alpha.Shared.Models/1.0.0": {
-      "type": "project",
-      "path": "../../../../Shared/Models/Alpha.Shared.Models/Alpha.Shared.Models.csproj",
-      "msbuildProject": "../../../../Shared/Models/Alpha.Shared.Models/Alpha.Shared.Models.csproj"
-    },
     "Alpha.Shared.Utils/1.0.0": {
       "type": "project",
       "path": "../../../../Shared/Utils/Alpha.Shared.Utils/Alpha.Shared.Utils.csproj",
@@ -3114,7 +3096,6 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Alpha.ServiceA.Infrastructure >= 1.0.0",
-      "Alpha.Shared.Models >= 1.0.0",
       "Alpha.Shared.Utils >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.30",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.30",
@@ -3153,9 +3134,6 @@
           "projectReferences": {
             "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceA\\Alpha.ServiceA.Infrastructure\\Alpha.ServiceA.Infrastructure.csproj": {
               "projectPath": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceA\\Alpha.ServiceA.Infrastructure\\Alpha.ServiceA.Infrastructure.csproj"
-            },
-            "D:\\ASP.NET MicroService\\Shared\\Models\\Alpha.Shared.Models\\Alpha.Shared.Models.csproj": {
-              "projectPath": "D:\\ASP.NET MicroService\\Shared\\Models\\Alpha.Shared.Models\\Alpha.Shared.Models.csproj"
             },
             "D:\\ASP.NET MicroService\\Shared\\Utils\\Alpha.Shared.Utils\\Alpha.Shared.Utils.csproj": {
               "projectPath": "D:\\ASP.NET MicroService\\Shared\\Utils\\Alpha.Shared.Utils\\Alpha.Shared.Utils.csproj"

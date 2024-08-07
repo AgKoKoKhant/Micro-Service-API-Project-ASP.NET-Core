@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uJH6l9icM6Cbz5bctPBreQpb10aJ6SAZeYvELen4zJFAXHoJiKDjaeMNPNYxrsyVgxchHh+lo6U0D0tvt9rrIQ==",
+  "dgSpecHash": "/XYdoFL0On36wIG6SxS9nt4lImNVHp5rywxr3gmrpxyxI/ww41lFY/aRaWxm9CYcZVVb4UjwKzibpolkxFe1Yg==",
   "success": true,
   "projectFilePath": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceA\\Alpha.ServiceA.API\\Alpha.ServiceA.API.csproj",
   "expectedPackageFiles": [

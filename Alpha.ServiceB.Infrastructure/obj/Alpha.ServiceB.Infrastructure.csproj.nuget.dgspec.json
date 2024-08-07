@@ -1,0 +1,276 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ASP.NET MicroService\\AlphProject\\Alpha.ServiceB.Infrastructure\\Alpha.ServiceB.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\ASP.NET MicroService\\AlphProject\\Alpha.ServiceB.Infrastructure\\Alpha.ServiceB.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET MicroService\\AlphProject\\Alpha.ServiceB.Infrastructure\\Alpha.ServiceB.Infrastructure.csproj",
+        "projectName": "Alpha.ServiceB.Infrastructure",
+        "projectPath": "D:\\ASP.NET MicroService\\AlphProject\\Alpha.ServiceB.Infrastructure\\Alpha.ServiceB.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\aungk\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET MicroService\\AlphProject\\Alpha.ServiceB.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aungk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Interface\\Alpha.ServiceB.Interface.csproj": {
+                "projectPath": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Interface\\Alpha.ServiceB.Interface.csproj"
+              },
+              "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Model\\Alpha.ServiceB.Model.csproj": {
+                "projectPath": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Model\\Alpha.ServiceB.Model.csproj"
+              },
+              "D:\\ASP.NET MicroService\\Shared\\Utils\\Alpha.Shared.Utils\\Alpha.Shared.Utils.csproj": {
+                "projectPath": "D:\\ASP.NET MicroService\\Shared\\Utils\\Alpha.Shared.Utils\\Alpha.Shared.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.30, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.30, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.30, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Interface\\Alpha.ServiceB.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Interface\\Alpha.ServiceB.Interface.csproj",
+        "projectName": "Alpha.ServiceB.Interface",
+        "projectPath": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Interface\\Alpha.ServiceB.Interface.csproj",
+        "packagesPath": "C:\\Users\\aungk\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aungk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Model\\Alpha.ServiceB.Model.csproj": {
+                "projectPath": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Model\\Alpha.ServiceB.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Model\\Alpha.ServiceB.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Model\\Alpha.ServiceB.Model.csproj",
+        "projectName": "Alpha.ServiceB.Model",
+        "projectPath": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Model\\Alpha.ServiceB.Model.csproj",
+        "packagesPath": "C:\\Users\\aungk\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET MicroService\\AlphProject\\Services\\ServiceB\\Alpha.ServiceB.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aungk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ASP.NET MicroService\\Shared\\Utils\\Alpha.Shared.Utils\\Alpha.Shared.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ASP.NET MicroService\\Shared\\Utils\\Alpha.Shared.Utils\\Alpha.Shared.Utils.csproj",
+        "projectName": "Alpha.Shared.Utils",
+        "projectPath": "D:\\ASP.NET MicroService\\Shared\\Utils\\Alpha.Shared.Utils\\Alpha.Shared.Utils.csproj",
+        "packagesPath": "C:\\Users\\aungk\\.nuget\\packages\\",
+        "outputPath": "D:\\ASP.NET MicroService\\Shared\\Utils\\Alpha.Shared.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aungk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.30, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -71,9 +71,7 @@ D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.API\bin\Deb
 D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.API\bin\Debug\net6.0\Alpha.ServiceA.Infrastructure.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.API\bin\Debug\net6.0\Alpha.ServiceA.Interface.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.API\bin\Debug\net6.0\Alpha.ServiceA.Model.dll
-D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.API\bin\Debug\net6.0\Alpha.Shared.Models.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.API\bin\Debug\net6.0\Alpha.Shared.Utils.dll
-D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.API\bin\Debug\net6.0\Alpha.Shared.Models.pdb
 D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.API\bin\Debug\net6.0\Alpha.Shared.Utils.pdb
 D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.API\bin\Debug\net6.0\Alpha.ServiceA.Infrastructure.pdb
 D:\ASP.NET MicroService\AlphProject\Services\ServiceA\Alpha.ServiceA.API\bin\Debug\net6.0\Alpha.ServiceA.Interface.pdb

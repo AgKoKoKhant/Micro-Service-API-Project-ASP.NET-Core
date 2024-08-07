@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Alpha.ServiceA.Model": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:60871;http://localhost:60872"
+    }
+  }
+}

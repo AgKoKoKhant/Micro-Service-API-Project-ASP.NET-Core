@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Alpha.ServiceB.Interface/1.0.0": {
+        "dependencies": {
+          "Alpha.ServiceB.Model": "1.0.0"
+        },
+        "runtime": {
+          "Alpha.ServiceB.Interface.dll": {}
+        }
+      },
+      "Alpha.ServiceB.Model/1.0.0": {
+        "runtime": {
+          "Alpha.ServiceB.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Alpha.ServiceB.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alpha.ServiceB.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
