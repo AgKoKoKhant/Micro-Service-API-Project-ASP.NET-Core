@@ -1,0 +1,16 @@
+[Error] [2024-08-11 01:58:59.963 AM] AUD Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware. [] | An unhandled exception has occurred while executing the request.
+[Error] [2024-08-11 02:02:00.595 AM] AUD Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware. [] | An unhandled exception has occurred while executing the request.
+[Error] [2024-08-11 02:04:51.509 AM] AUD Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware. [] | An unhandled exception has occurred while executing the request.
+[Information] [2024-08-11 02:09:27.437 AM] AUD Alpha.ServiceB.Infrastructure.ServiceBOperation.GetStudentSB [51] | Started GetStudent
+[Information] [2024-08-11 02:09:30.041 AM] AUD Alpha.ServiceB.Infrastructure.ServiceBOperation.GetStudentSB [51] | Started GetStudent
+[Information] [2024-08-11 02:18:23.964 AM] AUD MassTransit. [] | Configured endpoint "Test1", Consumer: "Alpha.ServiceB.API.Events.Consumers.CommonConsumer"
+[Information] [2024-08-11 02:18:25.676 AM] AUD MassTransit. [] | Bus started: rabbitmq://localhost/
+[Information] [2024-08-11 02:18:39.677 AM] AUD Alpha.ServiceB.Infrastructure.ServiceBOperation.GetStudentSB [51] | Started GetStudent
+[Information] [2024-08-11 02:18:41.449 AM] AUD Alpha.ServiceB.Infrastructure.ServiceBOperation.GetStudentSB [51] | Started GetStudent
+[Information] [2024-08-11 02:30:04.047 AM] AUD MassTransit. [] | Configured endpoint "Test1", Consumer: "Alpha.ServiceB.API.Events.Consumers.CommonConsumer"
+[Information] [2024-08-11 02:30:05.529 AM] AUD MassTransit. [] | Bus started: rabbitmq://localhost/
+[Information] [2024-08-11 02:30:06.038 AM] AUD Alpha.ServiceB.API.Events.Consumers.CommonConsumer.Consume [18] | Started CommonConsumerMassTransit.Context.ConsumerConsumeContextScope`2[Alpha.ServiceB.API.Events.Consumers.CommonConsumer,Alpha.Shared.Models.CommonModel]
+[Information] [2024-08-11 02:30:06.038 AM] AUD Alpha.ServiceB.API.Events.Consumers.CommonConsumer.Consume [18] | Started CommonConsumerMassTransit.Context.ConsumerConsumeContextScope`2[Alpha.ServiceB.API.Events.Consumers.CommonConsumer,Alpha.Shared.Models.CommonModel]
+[Information] [2024-08-11 02:30:06.038 AM] AUD Alpha.ServiceB.API.Events.Consumers.CommonConsumer.Consume [18] | Started CommonConsumerMassTransit.Context.ConsumerConsumeContextScope`2[Alpha.ServiceB.API.Events.Consumers.CommonConsumer,Alpha.Shared.Models.CommonModel]
+[Information] [2024-08-11 02:30:06.038 AM] AUD Alpha.ServiceB.API.Events.Consumers.CommonConsumer.Consume [18] | Started CommonConsumerMassTransit.Context.ConsumerConsumeContextScope`2[Alpha.ServiceB.API.Events.Consumers.CommonConsumer,Alpha.Shared.Models.CommonModel]
+[Information] [2024-08-11 02:30:17.482 AM] AUD Alpha.ServiceB.Infrastructure.ServiceBOperation.GetStudentSB [51] | Started GetStudent

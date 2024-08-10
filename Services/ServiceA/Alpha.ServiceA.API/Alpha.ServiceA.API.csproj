@@ -23,8 +23,12 @@
 
   <ItemGroup>
   
+    <ProjectReference Include="..\..\..\..\Shared\Models\Alpha.Shared.Models\Alpha.Shared.Models.csproj" />
+  
     <ProjectReference Include="..\..\..\..\Shared\Utils\Alpha.Shared.Utils\Alpha.Shared.Utils.csproj" />
     <ProjectReference Include="..\Alpha.ServiceA.Infrastructure\Alpha.ServiceA.Infrastructure.csproj" />
+    <ProjectReference Include="..\Alpha.ServiceA.Interface\Alpha.ServiceA.Interface.csproj" />
+    <ProjectReference Include="..\Alpha.ServiceA.Model\Alpha.ServiceA.Model.csproj" />
 
   </ItemGroup>
 

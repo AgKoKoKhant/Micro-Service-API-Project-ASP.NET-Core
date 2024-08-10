@@ -13,7 +13,12 @@
     
   <ItemGroup>
       
+    <ProjectReference Include="..\..\..\..\Shared\Models\Alpha.Shared.Models\Alpha.Shared.Models.csproj" />
+      
+    <ProjectReference Include="..\..\..\..\Shared\Utils\Alpha.Shared.Utils\Alpha.Shared.Utils.csproj" />
+      
     <ProjectReference Include="..\..\..\Alpha.ServiceB.Infrastructure\Alpha.ServiceB.Infrastructure.csproj" />
+      
   </ItemGroup>
 
 </Project>

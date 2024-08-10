@@ -1,11 +1,15 @@
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\appsettings.Development.json
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\appsettings.json
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Configs\LogSettings.json
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.ServiceB.API.exe
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.ServiceB.API.deps.json
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.ServiceB.API.runtimeconfig.json
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.ServiceB.API.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.ServiceB.API.pdb
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Humanizer.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\MassTransit.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\MassTransit.Abstractions.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -18,6 +22,8 @@ D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Deb
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
@@ -32,6 +38,7 @@ D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Deb
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\RabbitMQ.Client.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Serilog.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
@@ -54,6 +61,7 @@ D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Deb
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\System.Security.Permissions.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\System.Text.Json.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\System.Threading.Channels.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\System.Windows.Extensions.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -71,11 +79,13 @@ D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Deb
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.ServiceB.Infrastructure.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.ServiceB.Interface.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.ServiceB.Model.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.Shared.Models.dll
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.Shared.Utils.dll
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.Shared.Models.pdb
+D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.Shared.Utils.pdb
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.ServiceB.Infrastructure.pdb
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.ServiceB.Interface.pdb
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.ServiceB.Model.pdb
-D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\bin\Debug\net6.0\Alpha.Shared.Utils.pdb
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\obj\Debug\net6.0\Alpha.ServiceB.API.csproj.AssemblyReference.cache
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\obj\Debug\net6.0\Alpha.ServiceB.API.GeneratedMSBuildEditorConfig.editorconfig
 D:\ASP.NET MicroService\AlphProject\Services\ServiceB\Alpha.ServiceB.API\obj\Debug\net6.0\Alpha.ServiceB.API.AssemblyInfoInputs.cache

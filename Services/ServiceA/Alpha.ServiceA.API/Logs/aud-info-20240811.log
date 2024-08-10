@@ -1,0 +1,8 @@
+[Error] [2024-08-11 02:19:43.214 AM] AUD Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware. [] | An unhandled exception has occurred while executing the request.
+[Error] [2024-08-11 02:19:53.009 AM] AUD Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware. [] | An unhandled exception has occurred while executing the request.
+[Error] [2024-08-11 02:19:54.525 AM] AUD Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware. [] | An unhandled exception has occurred while executing the request.
+[Information] [2024-08-11 02:29:09.805 AM] AUD MassTransit. [] | Bus started: rabbitmq://localhost/
+[Information] [2024-08-11 02:29:21.464 AM] AUD Alpha.ServiceA.API.Events.Publishers.CommonPublisher.PublishMessage [22] | Started CommonPubllisher
+[Information] [2024-08-11 02:29:39.443 AM] AUD Alpha.ServiceA.API.Events.Publishers.CommonPublisher.PublishMessage [22] | Started CommonPubllisher
+[Information] [2024-08-11 02:29:41.895 AM] AUD Alpha.ServiceA.API.Events.Publishers.CommonPublisher.PublishMessage [22] | Started CommonPubllisher
+[Information] [2024-08-11 02:29:46.121 AM] AUD Alpha.ServiceA.API.Events.Publishers.CommonPublisher.PublishMessage [22] | Started CommonPubllisher

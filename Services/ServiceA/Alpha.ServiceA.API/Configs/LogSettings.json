@@ -1,0 +1,130 @@
+{
+  "Serilog": {
+    "Using": [ "Serilog.Sinks.File" ],
+    "MinimumLevel": {
+      "Default": "Debug",
+      "Override": {
+        "Microsoft": "Warning",
+        "System": "Warning"
+      }
+    },
+    "WriteTo:Information": { //this name here can be changed
+      "Name": "Logger", //this name here is essential
+      "Args": {
+        "configureLogger": {
+          "Filter": [
+            {
+              "Name": "ByIncludingOnly",
+              "Args": {
+                "expression": "@Level='Info'"
+              }
+            }
+          ],
+          "WriteTo": [
+            {
+              "Name": "Async", //i use async plugin from serilog
+              "Args": {
+                "configure": [
+                  {
+                    "Name": "Console",
+                    "Args": {
+                      "theme": "Serilog.Sinks.SystemConsole.Themes.AnsiConsoleTheme::Code, Serilog.Sinks.Console",
+                      "outputTemplate": "[{Level}] [{Timestamp:yyyy-MM-dd HH:mm:ss.fff tt}] AUD {SourceContext}.{Method} [{LineNumber}] | {Message}{NewLine}"
+                    }
+                  },
+                  {
+                    "Name": "File",
+                    "Args": {
+                      "outputTemplate": "[{Level}] [{Timestamp:yyyy-MM-dd HH:mm:ss.fff tt}] AUD {SourceContext}.{Method} [{LineNumber}] | {Message}{NewLine}",
+                      "shared": "true",
+                      "RestrictedToMinimumLevel": "Information",
+                      "path": "Logs/aud-info-.log",
+                      //"formatter": "Serilog.Formatting.Json.JsonFormatter, Serilog",
+                      "rollingInterval": "Day",
+                      "fileSizeLimitBytes": 20000000,
+                      "rollOnFileSizeLimit": true,
+                      "retainedFileCountLimit": 30
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "WriteTo:Warning": { //this name here can be changed
+      "Name": "Logger", //this name here is essential
+      "Args": {
+        "configureLogger": {
+          "Filter": [
+            {
+              "Name": "ByIncludingOnly",
+              "Args": {
+                "expression": "@Level='Warning'"
+              }
+            }
+          ],
+          "WriteTo": [
+            {
+              "Name": "Async", //i use async plugin from serilog
+              "Args": {
+                "configure": [
+                  {
+                    "Name": "File",
+                    "Args": {
+                      "outputTemplate": "[{Level}] [{Timestamp:yyyy-MM-dd HH:mm:ss.fff tt}] AUD {SourceContext}.{Method} [{LineNumber}] | {Message}{Exception}{NewLine}",
+                      "shared": "true",
+                      "RestrictedToMinimumLevel": "Warning",
+                      "path": "Logs/aud-error-.log",
+                      //"formatter": "Serilog.Formatting.Json.JsonFormatter, Serilog",
+                      "rollingInterval": "Day"
+                      //"retainedFileCountLimit": 7
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "WriteTo:Error": { //this name here can be changed
+      "Name": "Logger", //this name here is essential
+      "Args": {
+        "configureLogger": {
+          "Filter": [
+            {
+              "Name": "ByIncludingOnly",
+              "Args": {
+                "expression": "@Level='Warning'"
+              }
+            }
+          ],
+          "WriteTo": [
+            {
+              "Name": "Async", //i use async plugin from serilog
+              "Args": {
+                "configure": [
+                  {
+                    "Name": "File",
+                    "Args": {
+                      "outputTemplate": "[{Level}] [{Timestamp:yyyy-MM-dd HH:mm:ss.fff tt}] AUD  {SourceContext}.{Method} [{LineNumber}] | {Message}{NewLine}",
+                      "RestrictedToMinimumLevel": "Warning",
+                      "path": "Logs/aud-error-.log",
+                      "shared": "true",
+                      //"formatter": "Serilog.Formatting.Json.JsonFormatter, Serilog",
+                      "rollingInterval": "Day"
+                      //"retainedFileCountLimit": 7
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+
+  }
+}

@@ -1,5 +1,7 @@
+using Alpha.ServiceA.API.Events.Publishers;
 using Alpha.ServiceA.Infrastructure;
 using Alpha.ServiceA.Interface;
+using Alpha.Shared.Utils.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
@@ -10,6 +12,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructure();
+
+// Register ICommonPublisher with the DI container
+//builder.Services.AddTransient<IServiceA, ServiceAOperation>();// dependency injection
+builder.Services.AddTransient<ICommonPublisher, CommonPublisher>();
 //Configure Serial Log
 builder.Host.UseSerilog((hostContext, services, loggerConfiguration) =>
 {
@@ -37,6 +43,11 @@ builder.Services.AddScoped<IServiceA, ServiceAOperation>();
 
 // Add additional infrastructure services
 builder.Services.AddInfrastructure();
+
+//RabbitMQ
+var consumerList = QueueConfiguration.CreateDefaultMappings();
+var massTransitConfig = builder.Configuration.GetSection("MassTransitConfig").Get<MassTransitConfig>();
+builder.Services.AddConfiguredMassTransit(massTransitConfig, consumerList);
 
 var app = builder.Build();
 
